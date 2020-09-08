@@ -1,3 +1,4 @@
 9/4 Sunny 90 degrees 
 9/5 Sunny 85 degrees
 9/6 Sunny 100 degrees
+9/7 Smokey 85 degrees
