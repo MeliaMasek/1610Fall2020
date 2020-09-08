@@ -22,4 +22,25 @@ public class MoverScript : MonoBehaviour
         y = speed*Input.GetAxis("Vertical") * Time.deltaTime;
         transform.Translate(x, y, z);
     }
+
+    public void Up()
+    {
+        print("Up");
+        transform.Translate(x:0, y:speed, z:0);
+    }
+    public void Down()
+    {
+        print("Down");
+        transform.Translate(x:0, y:-speed, z:0);
+    }
+    public void Left()
+    {
+        print("Left");
+        transform.Translate(x:-speed, y:0, z:0);
+    }
+    public void Right()
+    {
+        print("Right");
+        transform.Translate(x:speed, y:0, z:0);
+    }
 }

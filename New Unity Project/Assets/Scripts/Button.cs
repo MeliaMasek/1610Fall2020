@@ -11,8 +11,12 @@ public class Button : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         
     }
+   public void Up()
+   {
+       print("Up");
+   }
 }
