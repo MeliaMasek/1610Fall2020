@@ -7,7 +7,7 @@ public class MoverScript : MonoBehaviour
 {
     public float x, y, z;
     public float speed = 3f;
-    public int score =100
+    public int score = 100;
     
     // Start is called before the first frame update
     void Start()

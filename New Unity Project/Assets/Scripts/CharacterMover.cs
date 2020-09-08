@@ -1,0 +1,19 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CharacterMover : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        Debug.Log("Player Name");
+        Debug.Log("Password:");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
