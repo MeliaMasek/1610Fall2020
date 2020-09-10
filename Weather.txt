@@ -3,4 +3,5 @@
 9/6 Sunny 100 degrees
 9/7 Smokey 85 degrees
 9/8 Smokey, Sunny 90 degrees
-9/8 cloudy, Rainy 50 degrees
+9/8 Cloudy, Rainy 50 degrees
+9/9 Cloudy 60 degrees
