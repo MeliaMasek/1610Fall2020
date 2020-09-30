@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpinPropellerX : MonoBehaviour
+public class ApplyForces : MonoBehaviour
 {
-    public float rotationspeed;
+
+    public Rigidbody rBody;
+    public float force = 30f;
+    
     // Start is called before the first frame update
-    void Start()
+    void OnMouseDown()
     {
-        
+        rBody.AddForce(0, force, 0);
     }
 
     // Update is called once per frame
