@@ -705,5 +705,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_01
       objectReference: {fileID: 0}
+    - target: {fileID: 3057001628164178500, guid: 66078feecdc57674cba14243871f064b,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 122
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057001628164178500, guid: 66078feecdc57674cba14243871f064b,
+        type: 3}
+      propertyPath: m_Mass
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057001628164178501, guid: 66078feecdc57674cba14243871f064b,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057001628164178501, guid: 66078feecdc57674cba14243871f064b,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 4.1032963
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057001628164178501, guid: 66078feecdc57674cba14243871f064b,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.35343575
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057001628164178501, guid: 66078feecdc57674cba14243871f064b,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 2.382042
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057001628164178501, guid: 66078feecdc57674cba14243871f064b,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.05856037
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66078feecdc57674cba14243871f064b, type: 3}
