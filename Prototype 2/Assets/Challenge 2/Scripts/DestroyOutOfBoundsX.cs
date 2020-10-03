@@ -12,7 +12,7 @@ public class DestroyOutOfBoundsX : MonoBehaviour
 
     // Update is called once per frame
     private float topbound = 50;
-    private float lowerbound = -20;
+    private float lowerbound = -50;
     void Update()
     {
         // Destroy dogs if x position less than left limit
