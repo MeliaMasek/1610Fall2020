@@ -5,17 +5,9 @@ using UnityEngine;
 public class NewMoverScript : MonoBehaviour
 {
     public float moveSpeed;
-
     private Vector3 moveDirection;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
         if (Input.GetButton("Jump"))
         {
