@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerControllerX : MonoBehaviour
 {
     public bool gameOver;
-    public bool isOnGround; 
-    
+
+    public float bounceForce = 5f;
     public float floatForce;
     private float gravityModifier = 1.5f;
     private Rigidbody playerRb;
@@ -16,12 +16,14 @@ public class PlayerControllerX : MonoBehaviour
 
     private AudioSource playerAudio;
     public AudioClip moneySound;
+    public AudioClip bounceSound;
     public AudioClip explodeSound;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        playerRb = GetComponent<Rigidbody>();
         Physics.gravity *= gravityModifier;
         playerAudio = GetComponent<AudioSource>();
 
@@ -34,13 +36,17 @@ public class PlayerControllerX : MonoBehaviour
     void Update()
     {
         // While space is pressed and player is low enough, float up
-        if (Input.GetKey(KeyCode.Space) && isOnGround &&!gameOver)
+        if (Input.GetKeyDown(KeyCode.Space) && !gameOver && playerRb.position.y < 15)
         {
-            playerRb.AddForce(Vector3.up * floatForce);
-            isOnGround = false;
+            playerRb.AddForce(Vector3.up * floatForce, ForceMode.Impulse);
+        }
+
+        if (gameObject.CompareTag("Ground"))
+        {
+            playerRb.AddForce(Vector3.up * bounceForce, ForceMode.Impulse);
+            playerAudio.PlayOneShot(bounceSound, 1.0f);
         }
     }
-
     private void OnCollisionEnter(Collision other)
     {
         // if player collides with bomb, explode and set gameOver to true
