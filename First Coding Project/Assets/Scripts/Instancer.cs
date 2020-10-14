@@ -11,8 +11,8 @@ public class Instancer : MonoBehaviour
     {
         while (true)
         {
-            Instantiate(prefab);
             yield return new WaitForSeconds(delay);
+            Instantiate(prefab);
         }
     }
 
