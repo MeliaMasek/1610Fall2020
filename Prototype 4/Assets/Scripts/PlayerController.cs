@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject PowerupIndicator;
     public float speed = 5.0f;
     public bool hasPowerUp = false;
     private Rigidbody playerRb;
@@ -21,6 +22,8 @@ public class PlayerController : MonoBehaviour
         float forwardInput = Input.GetAxis("Vertical");
        
         playerRb.AddForce(focalPoint.transform.forward * (forwardInput * speed));
+       
+        PowerupIndicator.transform.position = transform.position + new Vector3(0, -0.5f, 0);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -29,9 +32,18 @@ public class PlayerController : MonoBehaviour
         {
             hasPowerUp = true;
             Destroy(other.gameObject);
+            StartCoroutine(PowerupCountdownRoutine());
+            PowerupIndicator.gameObject.SetActive(true);
         }
     }
- 
+
+    IEnumerator PowerupCountdownRoutine()
+    {
+        yield return new WaitForSeconds(7);
+        hasPowerUp = false;
+        PowerupIndicator.gameObject.SetActive(false);
+    }
+    
     private float powerupStrength = 15f;
     private void OnCollisionEnter(Collision collision)
     {
