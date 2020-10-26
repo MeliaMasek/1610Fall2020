@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(CharacterController))]
+
 public class CharacterMover : MonoBehaviour
 {
-    public CharacterController controller;
+    private CharacterController controller;
     public float moveSpeed = 3f, gravity = -9.81f, jumpForce = 30f;
+    
     private Vector3 moveDirection;
     private float yDirection;
+
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Player Name");
-        Debug.Log("Password:");
+        controller = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
