@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: Tank
   health: 120
+  strength: 80
+  mana: 15
   art: {fileID: 21300000, guid: 29035790d5eb9054db890f24dd3800a3, type: 3}
   color: {r: 0.7125226, g: 0.43614277, b: 0.764151, a: 0}
