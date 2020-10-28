@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7843073862127250259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7843073862127250261}
+  - component: {fileID: 7843073862127250258}
+  - component: {fileID: 7906226185610840654}
+  m_Layer: 0
+  m_Name: ArtCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7843073862127250261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7843073862127250259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.87898827, y: 4.638399, z: -3.3462644}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7843073862127250258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7843073862127250259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6497294061a530d40bf53b7f3b96b2f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectibleList:
+  - {fileID: 11400000, guid: 1b483a901d6a58a40bce23d9940ca6cb, type: 2}
+  - {fileID: 11400000, guid: f59881e206fd29441a794f8d3c1a7528, type: 2}
+  - {fileID: 11400000, guid: c8198946992bcc04b939935348b6360c, type: 2}
+  - {fileID: 11400000, guid: d1a83fb3d33bba4478c633e674f6a9f1, type: 2}
+--- !u!114 &7906226185610840654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7843073862127250259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d0416a493a2e894e9d59b06623616d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  classList: []
