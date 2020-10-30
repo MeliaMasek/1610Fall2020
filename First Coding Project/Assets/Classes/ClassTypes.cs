@@ -23,7 +23,10 @@ public class ClassTypes : MonoBehaviour
 
         foreach (var item in classList)
         {
-            
+            print(classList[0]);
+            print(classList[1]);
+            print(classList[2]);
+            print(classList[3]);
         }
     }
 }
