@@ -5,7 +5,7 @@ using UnityEngine;
 public class Classes : ScriptableObject
 {
 //    public List<Classes> ClassList;
-    public string type;
+    public string role;
     public float health;
     public int strength;
     public float mana;
