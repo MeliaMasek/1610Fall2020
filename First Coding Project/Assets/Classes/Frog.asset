@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7da9c284a59b917409404721936786c9, type: 3}
   m_Name: Frog
   m_EditorClassIdentifier: 
-  type: Wizard
+  role: Wizard
   health: 90
   strength: 40
   mana: 90
