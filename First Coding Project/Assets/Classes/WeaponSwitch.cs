@@ -11,10 +11,15 @@ public enum WeaponClasses
     Hammer, 
     Spear,
     Bow,
-    Sword,
+    LongSword,
+    Mace,
+    Scythe,
+    Shield,
+    Rapier,
+    CrossBow,
 }
 
-public WeaponClasses currentWeaponClasses = WeaponClasses.Sword;
+public WeaponClasses currentWeaponClasses = WeaponClasses.LongSword;
 
 public void ChangeToBow()
 {
@@ -37,8 +42,23 @@ public void RunCurrentState()
         case WeaponClasses.Bow:
             // equips Bow 
             break;
-        case WeaponClasses.Sword:
-            // equips Sword
+        case WeaponClasses.LongSword:
+            // equips LongSword
+            break;
+        case WeaponClasses.Mace:
+            // equips Mace
+            break;
+        case WeaponClasses.Scythe:
+            //equips Scythe
+            break;
+        case WeaponClasses.Shield:
+            // equips Shield
+            break;
+        case WeaponClasses.Rapier:
+            // equips Rapier
+            break;
+        case WeaponClasses.CrossBow:
+            // equips CrossBow
             break;
         default:
             throw new ArgumentOutOfRangeException();
