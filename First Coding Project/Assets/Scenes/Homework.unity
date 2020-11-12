@@ -490,7 +490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cashTotal: {fileID: 11400000, guid: c2aa105e958fd7a4683b14fcad83947f, type: 2}
-  collectibleobj: {fileID: 11400000, guid: 7f2eb4cf22c4fed44b46390ea7789afc, type: 2}
+  collectibleObj: {fileID: 11400000, guid: 7f2eb4cf22c4fed44b46390ea7789afc, type: 2}
   txtObj: {fileID: 578115490}
 --- !u!1 &1073496430
 GameObject:
@@ -640,7 +640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cashTotal: {fileID: 11400000, guid: c2aa105e958fd7a4683b14fcad83947f, type: 2}
-  collectibleobj: {fileID: 11400000, guid: 7f2eb4cf22c4fed44b46390ea7789afc, type: 2}
+  collectibleObj: {fileID: 11400000, guid: 7f2eb4cf22c4fed44b46390ea7789afc, type: 2}
   txtObj: {fileID: 578115490}
 --- !u!135 &1282050499
 SphereCollider:
@@ -751,7 +751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cashTotal: {fileID: 11400000, guid: c2aa105e958fd7a4683b14fcad83947f, type: 2}
-  collectibleobj: {fileID: 11400000, guid: 7f2eb4cf22c4fed44b46390ea7789afc, type: 2}
+  collectibleObj: {fileID: 11400000, guid: 7f2eb4cf22c4fed44b46390ea7789afc, type: 2}
   txtObj: {fileID: 578115490}
 --- !u!135 &1383830799
 SphereCollider:
@@ -828,6 +828,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b352552412414da41af3007ba6d0912f, type: 2}
   - {fileID: 11400000, guid: 51799c36458791e4592ed6e0c628110f, type: 2}
   - {fileID: 11400000, guid: d8e487303bb9f5e46ac28231cd0b7a5d, type: 2}
+  WeaponSwitch: []
 --- !u!1 &2069154171
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,7 +1041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cashTotal: {fileID: 11400000, guid: c2aa105e958fd7a4683b14fcad83947f, type: 2}
-  collectibleobj: {fileID: 11400000, guid: 650f22839c9e0a441b439a4ad3f8bbbe, type: 2}
+  collectibleObj: {fileID: 11400000, guid: 650f22839c9e0a441b439a4ad3f8bbbe, type: 2}
   txtObj: {fileID: 578115490}
 --- !u!135 &2096539708
 SphereCollider:

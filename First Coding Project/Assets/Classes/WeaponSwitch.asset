@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b554dcf4600d0041ad0076014c1140a, type: 3}
   m_Name: WeaponSwitch
   m_EditorClassIdentifier: 
-  currentWeaponClasses: 4
+  color: {r: 0.83303666, g: 0.9056604, b: 0.8397062, a: 0}
+  currentWeaponClasses: 0

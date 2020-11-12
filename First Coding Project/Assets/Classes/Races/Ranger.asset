@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7da9c284a59b917409404721936786c9, type: 3}
-  m_Name: Turtle
+  m_Name: Ranger
   m_EditorClassIdentifier: 
-  role: Tank
-  health: 120
+  role: Ranger
+  weapon: {fileID: 11400000, guid: 5187c08894e9afe47981e572c74671b5, type: 2}
+  health: 80
   strength: 80
-  mana: 15
-  art: {fileID: 21300000, guid: 29035790d5eb9054db890f24dd3800a3, type: 3}
-  color: {r: 0.7125226, g: 0.43614277, b: 0.764151, a: 0}
+  mana: 50
+  art: {fileID: 21300000, guid: 7a604df86401bef4d979bd94dcd3c226, type: 3}
+  color: {r: 0.6226415, g: 0.6033682, b: 0.249644, a: 0}

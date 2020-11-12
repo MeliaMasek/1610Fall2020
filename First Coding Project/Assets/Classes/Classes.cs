@@ -4,8 +4,8 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Classes : ScriptableObject
 {
-//    public List<Classes> ClassList;
     public string role;
+    public ScriptableObject weapon;
     public float health;
     public int strength;
     public float mana;

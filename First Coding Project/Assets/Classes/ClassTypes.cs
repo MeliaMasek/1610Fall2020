@@ -5,7 +5,7 @@ using UnityEngine;
 public class ClassTypes : MonoBehaviour
 {
     public List<Classes> classList;
-
+    public List<WeaponSwitch> WeaponSwitch;
     private void Start()
     {
         for (var i = 0; i < classList.Count; i++)
