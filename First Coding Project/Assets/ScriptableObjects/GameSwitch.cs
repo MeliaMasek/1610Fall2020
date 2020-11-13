@@ -19,6 +19,16 @@ public class GameSwitch : ScriptableObject
      currentGameStates = GameStates.Playing;
  }
 
+ public void ChangeToPausing()
+ {
+     currentGameStates = GameStates.Pausing;
+ }
+
+ public void ChangeToEnding()
+ {
+     currentGameStates = GameStates.Ending;
+ }
+ 
  public void RunCurrentState()
  {
      switch (currentGameStates)

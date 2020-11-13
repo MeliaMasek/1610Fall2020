@@ -6,7 +6,7 @@ public class Defense : Collectible
 {
     public float PowerLevel = .5f;
 
-    public void Use()
+    public override void Use()
     {
      Debug.Log(this.name);   
     }
