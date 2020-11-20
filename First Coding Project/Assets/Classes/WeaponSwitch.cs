@@ -12,7 +12,7 @@ public class WeaponSwitch : ScriptableObject
     Hammer, 
     Spear,
     Bow,
-    LongSword,
+    ShortSword,
     Dagger,
     Scythe,
     Shield,
@@ -21,7 +21,7 @@ public class WeaponSwitch : ScriptableObject
     Tome, 
 }
 
-public WeaponClasses currentWeaponClasses = WeaponClasses.LongSword;
+public WeaponClasses currentWeaponClasses = WeaponClasses.ShortSword;
 
 public void ChangeToBow()
 {
@@ -48,8 +48,8 @@ public void RunCurrentState()
             // equips Bow 
             // Specific to Ranger
             break;
-        case WeaponClasses.LongSword:
-            // equips LongSword
+        case WeaponClasses.ShortSword:
+            // equips ShortSword
             // Specific to Warrior and Tank 
             break;
         case WeaponClasses.Dagger:
