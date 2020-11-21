@@ -5284,7 +5284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forces: {x: 0, y: 300, z: 0}
-  forces2: {x: -100, y: 0, z: 0}
+  forces2: {x: -200, y: 0, z: 0}
   holdTime: 1
   counter: 2
   canRun: 1
