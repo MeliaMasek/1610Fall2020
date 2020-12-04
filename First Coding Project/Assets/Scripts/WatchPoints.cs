@@ -14,7 +14,8 @@ public class WatchPoints : MonoBehaviour
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        destination = transform;
+        destination = patrolPoints[i];
+        canWatch = true;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -30,13 +31,10 @@ public class WatchPoints : MonoBehaviour
 
     private void Update()
     {
-        agent.destination = destination.position;
-        if (!canWatch) return;
-
-        if (agent.pathPending && agent.remainingDistance<0.5f)
-        {
-            destination = patrolPoints[1];
+      agent.destination = destination.position;
+            if (!canWatch) return;
+            if (agent.pathPending || !(agent.remainingDistance < 0.5f)) return;
+            destination = patrolPoints[i];
             i = (i + 1) % patrolPoints.Count;
-        }
     }
 }
