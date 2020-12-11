@@ -9,6 +9,7 @@ public class MovePlayer : MonoBehaviour
     
     private Vector3 moveDirection;
     private float yDirection;
+    public bool gameOver;
 
     // Start is called before the first frame update
     void Start()
