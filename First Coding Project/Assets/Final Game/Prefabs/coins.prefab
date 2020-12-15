@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8489867744072445123}
   - component: {fileID: 8489867744072445122}
   - component: {fileID: 8489867744072445125}
+  - component: {fileID: 5375252048832901425}
   m_Layer: 0
   m_Name: coins
   m_TagString: Untagged
@@ -111,3 +112,16 @@ MonoBehaviour:
   cashTotal: {fileID: 11400000, guid: edd89fc398b0532408a2bb6a5da39a18, type: 2}
   collectibleObj: {fileID: 11400000, guid: 8736bbb214269584cb3871feb7004b48, type: 2}
   txtObj: {fileID: 0}
+--- !u!65 &5375252048832901425
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8489867744072445121}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.28, y: 1.28, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
